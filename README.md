@@ -3,6 +3,10 @@ Sitecore User Group Meetupのスライド用のリポジトリです。作成し
 
 - [Takumi Yamada, Software developer | SlideShare](https://www.slideshare.net/ssuser81a10f)
 
+まだグループに参加していない方は、以下のURLから申請をお願いいたします。
+
+- [SUG日本 - Google グループ](https://groups.google.com/forum/#!forum/sugnihon)
+
 ## ビルド
 ```powershell
 > npx @marp-team/marp-cli path/to/slide.md --pdf
