@@ -13,7 +13,13 @@ style: |
 
 # <!-- fit -->Sitecore JSS + GraphQLで検索機能を作る:mag_right:
 
+Sitecore User Group Japan 1st meetup
+
 ![bg](./img/cover.png)
+
+---
+
+# <!-- fit -->:tada::congratulations:SUG日本:tokyo_tower::sushi:
 
 ---
 
@@ -48,18 +54,20 @@ style: |
 
 ## 対応フレームワーク
 公式/非公式で様々なフロントエンドフレームワークに対応している。
+
 ![](./img/supported-frameworks.png)
 
 ---
 
 ## 対応フレームワーク
 Reactがおすすめ（情報、サンプルコードの量が多い）。
+
 ![](./img/supported-frameworks-highlighted.png)
 
 ---
 
 ## 開発ワークフロー
-Sitecore JSSでは2つの開発ワークフローが用意されている。
+JSSでは2つの開発ワークフローが用意されている。
 
 ### [Code-First](https://jss.sitecore.com/docs/fundamentals/dev-workflows/code-first)
 テンプレートやページ、レイアウトの設定、コンポーネントの実装をコード側で行う。デプロイすることでSitecore上にインポートされる。
@@ -70,20 +78,27 @@ Sitecore JSSでは2つの開発ワークフローが用意されている。
 ---
 
 ## アプリケーションモード
-- Disconnected developer mode
-- Connected developer mode
-- Integrated mode
+JSSではアプリケーションの実行方法が複数用意されている。
+- [Disconnected developer mode](https://jss.sitecore.com/docs/fundamentals/application-modes#disconnected-developer-mode)
+  - ローカルにホスト&モックサーバーからコンテンツを取得。制限あり。
+- [Connected developer mode](https://jss.sitecore.com/docs/fundamentals/application-modes#connected-developer-mode)
+  - ローカルにホスト&SitecoreからAPI経由でコンテンツを取得。
+- [Integrated mode](https://jss.sitecore.com/docs/fundamentals/application-modes#integrated-mode)
+  - Sitecore上にホスト。本番用。
 
 ---
 
 ### デモ - ページの作成
+- Code-Firstでニュースページを作成します。
+  - `/news`: ニューストップ
+  - `/news/:news-name`: ニュースページ
 - サンプルコード: https://github.com/xirtardauq/sugjp-jss-sample
-
-- ページの追加、デプロイまで
 
 ---
 
 ## GraphQL
+
+![bg right:33%](./img/graphql-top.png)
 
 ---
 
@@ -92,11 +107,12 @@ Sitecore JSSでは2つの開発ワークフローが用意されている。
 ---
 
 ## デモ - 検索機能の作成
-- スキーマの追加
+- Searchスキーマの有効化
+- SearchBoxコンポーネントの作成
+  - searchTermステートと、clickイベントハンドラの追加
 - 検索クエリの作成
   - xQuery Builderの使い方
-  - 検索の実装
-- useQueryとuseLazyQuery
+  - useQueryとuseLazyQuery
 
 ---
 
@@ -108,3 +124,9 @@ Sitecore JSSでは2つの開発ワークフローが用意されている。
 - [Sitecore JavaScript Services クイックスタート - YouTube](https://www.youtube.com/playlist?list=PL35wZQvLcxOisI2D_0VFpmjzd255StIwg)
 - [Takumi Yamada, Software developer | SlideShare](https://www.slideshare.net/ssuser81a10f)
 - [Takumi Yamada - DEV Community 👩‍💻👨‍💻](https://dev.to/xirtardauq)
+
+---
+
+# SUG日本メンバー募集中！
+- [SUG日本 - Google グループ](https://groups.google.com/forum/#!forum/sugnihon)
+- [SUG日本 (Sitecore User Group Japan)（@sugnihon） / Twitter](https://twitter.com/sugnihon)
