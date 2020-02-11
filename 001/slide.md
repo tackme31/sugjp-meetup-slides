@@ -6,6 +6,10 @@ style: |
     display: block;
     margin: 0 auto;
   }
+  h1 img {
+    vertical-align: middle;
+    margin: 0;
+  }
 
 ---
 
@@ -32,7 +36,7 @@ style: |
 
 ---
 
-![center](./img/sitecore-icon-search-title.png)
+# <!-- fit -->&nbsp;&nbsp;![height:70px](./img/sitecore-icon-search-title.png) Sitecore Icon Search&nbsp;&nbsp;
 
 ---
 
@@ -54,7 +58,7 @@ Sitecore Rocksにはデフォルトで検索機能がある
 
 ---
 
-![center](./img/sitecore-extensions-title.png)
+# <!-- fit -->&nbsp;&nbsp;![height:70px](./img/sitecore-extensions-title.png) Sitecore Extensions&nbsp;&nbsp;
 
 ---
 
@@ -76,7 +80,7 @@ Sitecore 7.0 - 8.2がサポート範囲。9.xでも一応動く。
 
 ---
 
-![center](./img/sitecore-author-toolbox-title.png)
+# <!-- fit -->&nbsp;&nbsp;![height:70px](./img/sitecore-author-toolbox-title.png) Sitecore Author Toolbox&nbsp;&nbsp;
 
 ---
 
@@ -84,6 +88,9 @@ Sitecore 7.0 - 8.2がサポート範囲。9.xでも一応動く。
 コンテンツ作成に便利な機能を追加する拡張機能
 
 - 選択アイテムの復元機能が便利
+- その他にも多くの機能が実装されている
+  - メディアのDrag&Drop
+  - パブリッシュ完了通知
 - ダークモードがかっこいい
 - Chromeに対応
   - [Safari, Firefoxにも対応するかも](https://twitter.com/uquaisse/status/1221700172507439106)

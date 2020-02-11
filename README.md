@@ -5,7 +5,7 @@ Sitecore User Group Meetupのスライド用のリポジトリです。作成し
 
 ## ビルド
 ```powershell
-> npx @marp-team/marp-cli path/to/slide.md --pdf
+> npx @marp-team/marp-cli path/to/slide.md --pdf --allow-local-files
 ```
 
 ## 作者
